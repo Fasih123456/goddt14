@@ -1,7 +1,9 @@
+
+
 const Header = () => {
     return(
     <div id='header'>
-        <div class="jumbotron">
+        <div class="jumbotron" style={{padding: '15px'}}>
             <div class="ui grid">
                 <div class="ten wide column">
                     <div class="container text-left">
@@ -20,7 +22,7 @@ const Header = () => {
         </div>
 
 
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse" style={{marginBottom: '0px'}}>
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -42,6 +44,10 @@ const Header = () => {
                 </div>
             </div>
         </nav>
+
+        <div class="ui container">
+               
+        </div> 
     </div>
     );
 }
