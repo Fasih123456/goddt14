@@ -6,7 +6,7 @@
 
   const Homecontent = () =>{
       return (
-        <div>
+        <div >
           <Header />
           <div class="main body ui container">
             <img
