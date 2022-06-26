@@ -1,17 +1,17 @@
-
+import '../css/header.css';
 
 const Header = () => {
     return(
     <div id='header'>
-        <div class="jumbotron" style={{padding: '15px'}}>
+        <div class="jumbotron" id='main-jumbotron'>
             <div class="ui grid">
-                <div class="ten wide column">
+                <div class="nine wide column">
                     <div class="container text-left">
                         <h1>Donate Today</h1>      
                         <p>Mission, Vission & Values</p>
                     </div>
                 </div>
-                <div class="six wide column">
+                <div class="seven wide column">
                     <div class="container text-left">
                         <h2>Donate By your choice</h2>      
                         <p>Accepting Dontation is Every Province</p>
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
 
 
-        <nav class="navbar navbar-inverse" style={{marginBottom: '0px'}}>
+        <nav class="navbar navbar-inverse" id='main-nav' style={{marginBottom: '0px'}}>
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">

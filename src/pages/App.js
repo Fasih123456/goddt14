@@ -1,10 +1,10 @@
 import React from 'react';
-import Homecontent from '../components/home-content';
+import Homecontent from './home-content';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 
-
+import '../css/App.css';
 
 const App = () => {
     return(
