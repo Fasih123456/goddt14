@@ -51,10 +51,10 @@ class Navigation extends React.Component{
     return (
         <React.Fragment>
             <li class="link-item active"><a href="#"><Link to="/" class='active item' id='page1'>Home</Link></a></li>
-            <li ><a class='link-item' href="#"><Link to="/WhyDonate" class='item' id='page2'>Why Donate</Link></a></li>
-            <li ><a class='link-item' href="#"><Link to="/DonateToday" class='item' id='page3'>Donate Today</Link></a></li>
-            <li ><a class='link-item' href="#"><Link to="/FAQ" class='item' id='page4'>FAQ</Link></a></li>
-            <li ><a class='link-item' href="#"><Link to="/Contact" class='item' id='page5'>Contact</Link></a></li>
+            <li ><a class='link-item'><Link to="/WhyDonate" class='item' id='page2'>Why Donate</Link></a></li>
+            <li ><a class='link-item'><Link to="/DonateToday" class='item' id='page3'>Donate Today</Link></a></li>
+            <li ><a class='link-item'><Link to="/FAQ" class='item' id='page4'>FAQ</Link></a></li>
+            <li ><a class='link-item'><Link to="/Contact" class='item' id='page5'>Contact</Link></a></li>
         </React.Fragment>
     );
     }
