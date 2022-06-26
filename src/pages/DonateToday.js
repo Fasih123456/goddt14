@@ -1,7 +1,15 @@
+import Header from './Header';
+import Footer from './Footer';
+import Form from '../components/Form';
+
 const DonateToday = () => {
     return(
         <div>
-            <p>Donate Today Page</p>
+            <Header />
+            <div>
+                <Form />
+            </div>
+            <Footer />
         </div>
     )
 }
