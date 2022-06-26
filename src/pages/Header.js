@@ -41,22 +41,6 @@ const Header = () => {
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
-                <li class="active">
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">Why Donate</a>
-                </li>
-                <li>
-                  <a href="#">Donate Today</a>
-                </li>
-                <li>
-                  <a href="#">FAQ</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-
                 <Navigation />
               </ul>
             </div>
