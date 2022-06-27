@@ -2,18 +2,21 @@
     margin: auto;
     width: 80%;
     padding: 10px;
+    max-width: 1600px;
 }
 
 #main-nav{
     margin: auto;
     width: 80%;
     padding: 10px;
+    max-width: 1600px;
 }
 
 .main.body{
     margin: auto;
     width: 80%;
-    padding: 0px
+    padding: 0px;
+    max-width: 400px;
 }
 
 

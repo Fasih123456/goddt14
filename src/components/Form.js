@@ -58,9 +58,9 @@ function HorizontalExample() {
 
 
         <div className='group'>
-        <u>Skip this question you enter no to question 1</u>
+        <u style={{paddingLeft: "13px"}}>Skip this question you enter no to question 1</u>
         <FormText
-          title="            4. You have noted that you are not the registered owner of the vehicle. Please explain the
+          title="4. You have noted that you are not the registered owner of the vehicle. Please explain the
             circumstance of this car(Ex: Abdoned Vechile, on behalf of family member, power of
             attoerny)"
           placeholder="yo"
@@ -175,6 +175,18 @@ function HorizontalExample() {
               id="formHorizontalRadios2"
             />
           </Col>
+          
+
+          <Form.Label column sm={2}>
+              Please select one:
+          </Form.Label>
+
+          <Form.Select>
+            <option>My car is suitable for Recycling</option>
+            <option>My car is suitable for Donating</option>
+            <option>Please decide for me</option>
+          </Form.Select>
+ 
         </Form.Group>
         </div>
         <div className='group'>
