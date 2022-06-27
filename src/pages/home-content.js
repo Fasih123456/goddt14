@@ -11,7 +11,7 @@
           <div class="main body ui container">
             <img
               src="images/1.jpg"
-              style={{ width: "100%", maxHeight: "550px", marginBottom: "20px" }}
+              style={{ width: "100%", height: "35vw", marginBottom: "20px" }}
             />
             <div>
               <div class="row">
