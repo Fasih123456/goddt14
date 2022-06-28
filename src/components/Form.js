@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import FormText from "./FormText";
 
+
 import React, {useState} from 'react';
 import '../css/donatetoday.css'
 import { FormGroup } from "react-bootstrap";
@@ -12,9 +13,14 @@ function HorizontalExample() {
   const [showhide, setShowhide]=useState('');
   const [showextraquestion,setShowextraquestion]=useState('');
   const [validated, setValidated] = useState(false);
+  const [sameinformation, setSameinformation] = useState('no');
 
   const handleSubmit = (event) => {
-    const form = event.currentTarget;
+    event.preventDefault();
+    const form = event.target;
+    console.log(event.target.location.value);
+   
+
     if(form.checkValidity() === false){
       event.preventDefault();
       event.stopPropagation();
@@ -31,6 +37,19 @@ function HorizontalExample() {
   const handleshowextraquestion=(event)=>{
     const getvalue = event.target.value;
     setShowextraquestion(getvalue);
+  }
+
+  const handlesameinformation=(event)=>{
+    let getvalue = event.target.value;
+
+    console.log(getvalue);
+    console.log(sameinformation);
+
+    if(sameinformation == 'yes' && getvalue == 'yes'){
+      setSameinformation('no');
+    }else{
+      setSameinformation(getvalue);
+    }
   }
 
   return (
@@ -61,7 +80,7 @@ function HorizontalExample() {
           </Col>
         </Form.Group>
 
-        <FormText title="2. Where is your Vehicle Located" />
+        <FormText title="2. Where is your Vehicle Located" name='location'/>
 
         <Form.Group as={Row} className="mb-3" controlId="intialform">
           <Form.Label column sm={8}>
@@ -69,7 +88,7 @@ function HorizontalExample() {
             block right now? - This question is only pertaining to the mechanical condition. -
             Expired insurance or registration should not affect your answe
           </Form.Label>
-          <Col sm={4} onChange={(e)=>handleshowextraquestion(e)}>
+          <Col sm={4} >
             <Form.Check 
 
             required
@@ -90,20 +109,7 @@ function HorizontalExample() {
  
           </Col>
         </Form.Group>
-        <Form.Check
-        inline
-        label="1"
-        name="group1"
-        type='checkbox'
-        id='hi'
-      />
-              <Form.Check
-        inline
-        label="2"
-        name="group1"
-        type='checkbox'
-        id='hi'
-      />
+
         </div>
 
         {
@@ -114,6 +120,7 @@ function HorizontalExample() {
                 circumstance of this car(Ex: Abdoned Vechile, on behalf of family member, power of
                 attoerny)"
               placeholder="yo"
+              name='question4'
             />
           </div>
           )
@@ -123,108 +130,121 @@ function HorizontalExample() {
       <h3 className='form-heading'>Doners information</h3>
 
 
-        <FormText title="5. First Name (or Company Name)" />
-        <FormText title="6. Last Name" />
-        <FormText title="7. Street Address" />
-        <FormText title="8. City or Town" />
-        <FormText title="9. Province" />
-        <FormText title="10. Postal Code" />
-        <FormText title="11. Phone" />
-        <FormText title="12. Phone Other" />
-        <FormText title="13. Email Address" />
-        <FormText title="14. Confirm Email Address" />
+        <FormText title="5. First Name (or Company Name)"  name='userfirstname'/>
+        <FormText title="6. Last Name"  name='userlastname'/>
+        <FormText title="7. Street Address"  name='userstreetaddress'/>
+        <FormText title="8. City or Town"  name='usercity'/>
+        <FormText title="9. Province"  name='userprovince'/>
+        <FormText title="10. Postal Code"  name='userpostalcode'/>
+        <FormText title="11. Phone"  name='userphone'/>
+        <FormText title="12. Phone Other"  name='userotherphonenumber'/>
+        <FormText title="13. Email Address"  name='useremail'/>
+        <FormText title="14. Confirm Email Address"  name='useremailconfirm'/>
             </div>
             <div className='group'>
       <h3 className='form-heading'>Vehicle Information</h3>
 
         <Form.Group as={Row} className="mb-3" controlId="intialform">
-          <FormText title="15. Year" />
-          <FormText title="16. Make" />
-          <FormText title="17. Model" />
-          <FormText title="18. Color" />
-          <FormText title="19. Seril Number(17 characters)" />
+          <FormText title="15. Year"  name='caryear'/>
+          <FormText title="16. Make"  name='carmake'/>
+          <FormText title="17. Model"  name='carmodel'/>
+          <FormText title="18. Color"  name='carcolor'/>
+          <FormText title="19. Seril Number(17 characters)"  name='carserialnumber'/>
             <p>Please select all information that applies</p>
           <Form.Label column sm={2}>
             20. Vehicle Condition
           </Form.Label>
           <Col sm={10}>
             <Form.Check
-              type="radio"
+              type="checkbox"
               label="Runs Fine(no mechnical conerns)"
-              name="formHorizontalRadios"
+              value='runs fine'
+              name="runsfine"
               id="formHorizontalRadios1"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
               label="Wont start"
-              name="formHorizontalRadios"
+              value='wont state'
+              name="wontstart"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
+              value='dead battery'
               label="Dead Battery"
-              name="formHorizontalRadios"
+              name="deadbattery"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
+              value='engine problems'
               label="Engine Problems"
-              name="formHorizontalRadios"
+              name="engineproblem"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
+              value='tramission problems'
               label="Transmission problems"
-              name="formHorizontalRadios"
+              name="transmissionproblem"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
               label="Brakes Sized"
-              name="formHorizontalRadios"
+              value='brakes sized'
+              name="brakessized"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
               label="Flat tier"
-              name="formHorizontalRadios"
+              value='flat tier'
+              name="flattier"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
               label="Disel"
-              name="formHorizontalRadios"
+              value='disel'
+              name="disel"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
               label="4x4"
-              name="formHorizontalRadios"
+              value='4x4'
+              name="4x4"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
+              value='frame damage'
               label="frame damage"
-              name="formHorizontalRadios"
+              name="framedamage"
               id="formHorizontalRadios2"
             />
                 
             <Form.Check
-              type="radio"
+              type="checkbox"
               label="flood damage"
-              name="formHorizontalRadios"
+              value='flood damage'
+              name="flooddamage"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
+              value='minor cosmetic damage'
               label="minor cosmetic damage"
-              name="formHorizontalRadios"
+              name="minordamage"
               id="formHorizontalRadios2"
             />
             <Form.Check
-              type="radio"
+              type="checkbox"
+              value='major cosmetic damage'
               label="major cosmetic damage"
-              name="formHorizontalRadios"
+              name="majordamage"
               id="formHorizontalRadios2"
             />
           </Col>
@@ -236,9 +256,9 @@ function HorizontalExample() {
 
           <Form.Select onChange={(e)=>(handleshowhide(e))}>
               <option value="">----Select Option----</option>
-              <option value='1' required>Recycle my car</option>
-              <option value='2' required>Auction my car</option>
-              <option value='3' required>Please decide for me</option>
+              <option name='recycle' value='1' required>Recycle my car</option>
+              <option name='auction' value='2' required>Auction my car</option>
+              <option name='self-decide' value='3' required>Please decide for me</option>
           </Form.Select>
 
             
@@ -287,13 +307,13 @@ function HorizontalExample() {
             <Form.Check
               type="radio"
               label="Yes"
-              name="formHorizontalRados"
+              name="drivevehicle"
               id="formHorizontalRadios1"
             />
             <Form.Check
               type="radio"
               label="No"
-              name="formHorizontalRados"
+              name="drivevehicle"
               id="formHorizontalRadios2"
             />
           </Col>
@@ -301,14 +321,34 @@ function HorizontalExample() {
 
 
         <Form.Group as={Row} className="mb-3">
+        <Form.Label column sm={2}>
+            Same as doner address
+          </Form.Label>
+          <Col sm={10}>
+            <Form.Check
+              type="checkbox"
+              label="Yes"
+              name="same address"
+              id="sameaddress"
+              value='yes'
+              onChange={(e)=>handlesameinformation(e)}
+            />
+          </Col>
 
-          <FormText title='22. Street Address'/>
-          <FormText title='23. City or Town' />
-          <FormText title='24. Province' />
-          <FormText title='25. Postal Code' />
-          <FormText title='26. Contact Name' />
-          <FormText title='27. Phone Number' />
-          <FormText title='28. Phone Other' />
+          {
+            sameinformation == 'no' && (
+              <div>
+              <FormText title='22. Street Address' name='street'/>
+              <FormText title='23. City or Town'  name='location1'/>
+              <FormText title='24. Province'  name='location1'/>
+              <FormText title='25. Postal Code'  name='location1'/>
+              <FormText title='26. Contact Name'  name='location1'/>
+              <FormText title='27. Phone Number'  name='location1'/>
+              <FormText title='28. Phone Other'  name='location1'/>
+              </div>
+            )
+          }
+
 
 
         </Form.Group>
@@ -316,8 +356,8 @@ function HorizontalExample() {
         <div className="group">
         <Form.Group as={Row} className="mb-3" controlId="intialform">
         <h3 className='form-heading'>Charity</h3>
-        <FormText title='29. Do you have an charity which you would like to donate your vehicle to?' />
-        <FormText title='30. Would like to add any addional information' />
+        <FormText title='29. Do you have an charity which you would like to donate your vehicle to?'  name='location1'/>
+        <FormText title='30. Would like to add any addional information' name='location1' />
         
 
         <Form.Label column sm={2}>
