@@ -110,7 +110,6 @@ const FAQ = () => {
             <Accord id='17' title='My loved one has passed. Can i donate their estate vechile' content={contents[16]} />
             <Accord id='18' title='Is donate a car canada a charity' content={contents[17]} />
 
-
             </div>
             <Footer />
         </div>
