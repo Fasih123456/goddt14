@@ -1,3 +1,5 @@
+import '../css/footer.css';
+
 const Footer = () => {
     return (
         <footer class="container-fluid text-center">
