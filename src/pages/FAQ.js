@@ -91,6 +91,8 @@ const FAQ = () => {
         <div>
             <Header />
             <div className='main body ui container'>
+            <p className='red-heading' style={{marginBottom:"7.5px", marginTop:"20px"}}>Frequently Asked Questions(FAQ)</p>
+            <p style={{marginBottom: "45px"}}>Click a question to see its answer below</p>
             <Accord id='1' title='What can i donate' content={contents[0]}/>
             <Accord id='2' title='How do i donate my vechile' content={contents[1]} />
             <Accord id='3' title='How much will my tax receipt be' content={contents[2]} />
