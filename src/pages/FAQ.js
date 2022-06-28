@@ -4,84 +4,83 @@ import Accord from '../components/Accordion';
 
 const contents = [
     
-    'A: We accept most vehicles including but not limited to cars, trucks, vans, SUV’s, trailers, RV’s and boats. There are a few conditions that must be met in order for your vehicle to qualify, Donation must be made by the registered owner, or their legal representative. Vehicle must be registered in Canada Vehicle must be in ‘complete’ state with no major parts missing.We do accept vehicles with body damage.Special conditions will apply to boats, trailers, and RVsWe cannot accept vehicles with insurance claims against them.We cannot accept vehicles with liens or encumbrances on them.In most cases RVs are required to be dropped off, however they will be handled on an individual basis.'
+    'Including but not limited to cars, trucks, vans, SUVs, trailers, RVs, and boats, we accept the majority of vehicles. Your car must meet a few requirements in order to be eligible. For example, the registered owner or their legal agent must donate the car. Automobile must be registered in Canada. Vehicle must be "complete" and without any significant component deficiencies. Vehicles with body damage are accepted. RVs, trailers, and boats will be subject to further restrictions. We are unable to accept vehicles that have insurance claims pending. Vehicles with liens or other encumbrances cannot be accepted. Although RVs must typically be dropped off, each instance will be treated differently.'
     ,
     `
     A: To donate your vehicle, follow the steps below.
 
-    From the home page, select the tab ‘Donate Now’. Here you will be asked to answer a few simple questions to qualify your vehicle.
-    Fill out the donation form with your vehicle information, contact information, and select the charity you wish to donate to.
-    Review the details you have entered, agree to the terms and conditions, and submit your vehicle for donation.
-    Further instructions will be provided for either drop off or towing.
-    Check your email for our confirmation email. If you do not see the confirmation message immediately, please check your junk mail folder.
-    For more detailed information on this topic, please click on the link more info
+    Choose the "Donate Now" tab from the home page. To qualify your vehicle, you will need to respond to a few straightforward questions here.
+Include details about your car, your contact information, and the organization you want to donate to on the donation form.
+Review the information you have provided, accept the terms and conditions, and then submit the donation request for your car.
+Additional directions will be given for towing or dropping off.
+For our email confirmation, check your inbox. Please check your junk mail folder if you do not immediately see the confirmation message.
+Please click the link more info for comprehensive information on this subject.
     `
     ,
     `
-    How much will my tax receipt be?
-    A: There are many factors that go into determining this amount. For more detailed information, please click on this link – more info.
+    This sum is calculated using a variety of criteria. Please click on this link, more info, for more information that is more specific.
     `
     ,
     `
-    A: Yes, we can accept non-running vehicles.
+    Yes, we can take automobiles that aren't running.
     `
     ,
     `
-    Legal proof of ownership is required. Current or expired registration, a Bill of Sale, or a ‘proof of last vehicle registration’ letter from your local registry is acceptable.
+    There must be ownership documentation on file. A bill of sale, a letter from your local registry requesting "evidence of last car registration," or a current or expired registration are all acceptable.
     `
     ,
     `
-    A: If your vehicle is being recycled, you no longer require insurance on the vehicle once it has been picked up by our towing agent. If your vehicle is going to auction, we suggest that you keep insurance on your vehicle until the vehicle has sold. We will notify you by email when your vehicle has been sold.
+    Once it has been picked up by our towing provider and is being recycled, your car no longer needs insurance. We advise you to maintain coverage on your car until it is sold if it is coming up for auction. When your car has been sold, we'll send you an email to let you know.
     `
     ,
     `
-    A: You will be contacted by our towing agent within 48 hours. At that time, you can arrange the most convenient time for pick-up of your vehicle.
+    Within 48 hours, one of our towing agents will get in touch with you. You may then plan for the pick-up of your car at a time that is most convenient for you.
     `
     ,
     `
-    A: The license plates belong to the registered owner of the vehicle. If they are left on the vehicle at the time of donation, the auction or recycling agent will store, or destroy, the plates. Recyclers typically crush, shred, or mar the plate to ensure that it cannot be used by a non-registered owner.
+    The vehicle's registered owner is the rightful owner of the licence plates. The auction house or recycling company will store or remove the licence plates if they are still attached to the car when it is donated. To prevent a non-registered owner from using the plate, recyclers often smash, shred, or mark it.
 
-    In some provinces a small rebate is available when license plates are returned to the provincial registries. If you wish to keep your plates, simply remove them at the time of pick up, or request that our tow support agents do that for you. They will be happy to help!
-    
-    *Please note: vehicles left unplated on city streets will likely be impounded by your city parking authority. Although this rarely occurs, if your vehicle is left unplated on the street prior to our towing agents arriving, the city may impound the vehicle. Donate a Car Canada cannot be held responsible for those impound fees.
+    When licence plates are returned to the provincial registry, a minor reimbursement may be offered in some jurisdictions. Simply take off your licence plates at the time of pick-up if you want to keep them, or ask one of our tow assistance representatives to do it for you. They'll be glad to assist you! 
+
+Please be aware that your city's parking authority may confiscate any automobiles left on public streets without licence plates. Although it doesn't happen often, the city may impounded your car if it is left unregistered on the street before our towing personnel arrive. These impound fees are not the responsibility of Donate a Car Canada.
     `
     ,
     `
-    A: We service several areas across Canada and are continually adding new locations. If we do not currently service your area, we will attempt to find an agent to pick-up your vehicle upon receiving your online submission.
+    We provide our services in several regions around Canada, and we're always adding more cities. Upon receiving your online submission, we will try to locate an agent to pick up your car if we do not currently service your region.
     `
     ,
     `
-    A: You do not have to pay for your vehicle to be towed. If the vehicle is recycled, the towing cost is included. If your vehicle is sent to the auction, the towing cost is deducted from the sale price of your vehicle.
+    The cost of having your car towed is not your responsibility. The cost of towing is covered if the car is recycled. The towing fee is subtracted from the vehicle's sale price if it is consigned to the auction.
     `
     ,
     `
-    A: Dropping off your vehicle at our selling agent is beneficial for the charity as it eliminates transport costs being deducted from your donation. We have various drop off locations based on whether we can auction or recycle your donated vehicle. We can provide you drop off locations and instructions once your online form is complete.
+    It's advantageous for the charity if you drop off your car at our selling agent since it prevents transport expenses from being subtracted from your gift. Depending on whether we can sell or recycle your given vehicle, we have several drop-off sites. Once your online form is complete, we may give you drop-off locations and instructions.
     `
     ,
     `
-    A: Yes! You can donate your vehicle to ANY registered Canadian charity. When you fill in your donation form you will be given the opportunity to name any charity not already on our receiving list (add it into the extra notes section). You will also need to select a second choice charity from our active drop-down list in order to complete the form.
+    Yes! ANY recognised Canadian charity is eligible to receive a car donation. You will have the option to select any charity not currently on our receiving list when filling out your gift form (add it into the extra notes section). In order to complete the form, you must also choose a second charity from our active drop-down list.
     `
     ,
     `
-    A: Yes, you will receive a tax deductible receipt for your donation. Guaranteed!
+    Yes, you will get a receipt for your gift that you may use as tax deduction. Guaranteed!
     `
     ,
-    `A: After the sale of your vehicle and our accounting process is complete, we will send you an email confirming your donation has been sent to the charity. You should then receive your tax receipt within 2 weeks of the charity receiving your gift.
-    `
-    ,
-    `
-    A: If you have a vehicle manufactured prior to 1980, or if you are donating a boat, motorcycle, trailer, or another type of vehicle that does not meet this requirement, please add zeros to the end of your serial number to total 17 digits.
+    `After the sale of your vehicle and our accounting process is complete, we will send you an email confirming your donation has been sent to the charity. You should then receive your tax receipt within 2 weeks of the charity receiving your gift.
     `
     ,
     `
-    A: To Donate a boat, in most cases, it will need to be dropped off at our nearest sales agent and some unique procedures will apply. We will work closely with you and our auction agents to determine the best process. To donate a boat today, go to the donate now page. For problems relating to entering the boats serial number, please see faq #14.
+    We will email you to confirm your gift has been sent to the charity after the sale of your car and our accounting procedure are finished. Within two weeks of the charity receiving your contribution, you ought to obtain your tax receipt.
     `
     ,
     `
-    A: Yes, we can assist you in donating their estate vehicle. Please fill in our online submission form and we will work through the process with you.
+    Most of the time, to donate a boat, it must be dropped off to our local sales agent, and certain requirements will apply. To choose the optimal procedure, we'll work together with you and our auction agents. Visit the give now page to donate a boat right away. Please refer to FAQ #14 if you experience any issues while inputting the boat's serial number.
     `
     ,
-    `Donate a Car Canada is a business, serving Canadian donors and their chosen charities since 2005. Many charities are unable to accommodate this type of fundraising due to the labor intensive administrative process associated with Gifts in Kind donations. Donate a Car Canada does the work so that your charity does not need to spend valuable man hours administrating the many details involved in processing a car for donation.
+    `
+    We can help you donate their estate car, yes. Please complete our online submission form so that we can walk you through the procedure.
+    `
+    ,
+    `Give a Car Since 2005, Canada has been in the business of helping Canadian contributors and their preferred organisations. Due to the labor-intensive administrative procedure involved with Gifts in Kind donations, many charities are unable to accept this method of fundraising. In order to save your organisation time and resources, Donate an Automobile Canada handles the various processes required in processing a car for donation.
 
     `
 ]

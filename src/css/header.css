@@ -1,3 +1,5 @@
+
+
 #main-jumbotron{
     margin: auto;
     width: 80%;
@@ -27,4 +29,28 @@
     color:green;
 }
 
+.gg-chevron-right {
+    box-sizing: border-box;
+    position: relative;
+  
+    transform: scale(var(--ggs,1));
+    width: 25px;
+    height: 25px;
+    border: px solid transparent;
+    border-radius: 100px
+   }
+   
+   .gg-chevron-right::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(-45deg);
+    right: 4px;
+    top: 2px
+   } 
 

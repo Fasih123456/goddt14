@@ -1,6 +1,9 @@
 import '../css/header.css';
 import Navigation from '../components/Navigation';
 
+
+
+
 const Header = () => {
     return (
       <div id="header">
@@ -8,24 +11,24 @@ const Header = () => {
           <div class="ui grid">
             <div class="nine wide column">
               <div class="container text-left">
-                <h1>Donate Today</h1>
-                <p>Mission, Vission & Values</p>
+                <h1>InTow</h1>
+                <p>Donate A Car</p>
               </div>
             </div>
             <div class="seven wide column">
               <div class="container text-left">
-                <h2>Donate By your choice</h2>
-                <p>Accepting Dontation is Every Province</p>
+                <h2><i class="gg-chevron-right" />Donate By your choice</h2>
+                <p><i class="gg-chevron-right"></i>Accepting Dontation is Every Province</p>
                 <a id="bookmarkme" href="#" rel="sidebar" title="bookmark this page">
-                  Bookmark This Page
+                <i class="gg-chevron-right"></i>Bookmark This Page
                 </a>
               </div>
             </div>
           </div>
         </div>
-
+ 
         <nav class="navbar navbar-inverse" id="main-nav" style={{ marginBottom: "0px" }}>
-          <div class="container-fluid">
+          <div class="container-fluid" style={{marginLeft: "0px"}}>
 
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
