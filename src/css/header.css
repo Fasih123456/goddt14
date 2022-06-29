@@ -1,25 +1,38 @@
+@media screen and (max-width: 900px) {
+    #main-jumbotron{
+        margin: 0px;
+        width: 100%;
+    }
 
-
-#main-jumbotron{
-    margin: auto;
-    width: 80%;
-    padding: 10px;
-    max-width: 1600px;
+    #main-nav{
+        margin: 0px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 900px) {
+    #main-jumbotron{
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+        max-width: 1600px;
+    }
+    
+    #main-nav{
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+        max-width: 1600px;
+    }
+    
+    .main.body{
+        margin: auto;
+        width: 80%;
+        padding: 0px;
+        max-width: 400px;
+    }
 }
 
-#main-nav{
-    margin: auto;
-    width: 80%;
-    padding: 10px;
-    max-width: 1600px;
-}
 
-.main.body{
-    margin: auto;
-    width: 80%;
-    padding: 0px;
-    max-width: 400px;
-}
 
 #bookmarkme{
     color: black

@@ -1,6 +1,7 @@
 a{
     font-size: 16px;
     color: white;
+    font-weight: bold;
 }
 
 a:hover{
@@ -15,4 +16,10 @@ li:hover{
 
 .navbar-nav{
     flex-direction: row;
+}
+
+#nav-dropdown{
+    color: white;
+    font-weight: bolder;
+    padding-left: 20px;
 }

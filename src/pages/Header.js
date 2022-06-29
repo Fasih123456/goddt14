@@ -30,7 +30,7 @@ const Header = () => {
         <nav class="navbar navbar-inverse" id="main-nav" style={{ marginBottom: "0px" }}>
           <div class="container-fluid" style={{marginLeft: "0px"}}>
 
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
                 <Navigation />
               </ul>
