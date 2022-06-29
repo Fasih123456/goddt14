@@ -42,7 +42,7 @@ Please click the link more info for comprehensive information on this subject.
 
     When licence plates are returned to the provincial registry, a minor reimbursement may be offered in some jurisdictions. Simply take off your licence plates at the time of pick-up if you want to keep them, or ask one of our tow assistance representatives to do it for you. They'll be glad to assist you! 
 
-Please be aware that your city's parking authority may confiscate any automobiles left on public streets without licence plates. Although it doesn't happen often, the city may impounded your car if it is left unregistered on the street before our towing personnel arrive. These impound fees are not the responsibility of Donate a Car Canada.
+Please be aware that your city's parking authority may confiscate any automobiles left on public streets without licence plates. Although it doesn't happen often, the city may impounded your car if it is left unregistered on the street before our towing personnel arrive. These impound fees are not the responsibility of InTow.
     `
     ,
     `
@@ -80,7 +80,7 @@ Please be aware that your city's parking authority may confiscate any automobile
     We can help you donate their estate car, yes. Please complete our online submission form so that we can walk you through the procedure.
     `
     ,
-    `Give a Car Since 2005, Canada has been in the business of helping Canadian contributors and their preferred organisations. Due to the labor-intensive administrative procedure involved with Gifts in Kind donations, many charities are unable to accept this method of fundraising. In order to save your organisation time and resources, Donate an Automobile Canada handles the various processes required in processing a car for donation.
+    `Give a Car Since 2005, Canada has been in the business of helping Canadian contributors and their preferred organisations. Due to the labor-intensive administrative procedure involved with Gifts in Kind donations, many charities are unable to accept this method of fundraising. In order to save your organisation time and resources, InTow handles the various processes required in processing a car for donation.
 
     `
 ]
@@ -109,7 +109,7 @@ const FAQ = () => {
             <Accord id='15' title='The submission form will not accept my serial number' content={contents[14]}/>
             <Accord id='16' title='How do i donate a boat' content={contents[15]} />
             <Accord id='17' title='My loved one has passed. Can i donate their estate vechile' content={contents[16]} />
-            <Accord id='18' title='Is donate a car canada a charity' content={contents[17]} />
+            <Accord id='18' title='Is InTow a charity' content={contents[17]} />
 
             </div>
             <Footer />

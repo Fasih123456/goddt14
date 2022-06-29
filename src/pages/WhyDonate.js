@@ -15,7 +15,7 @@ const WhyDonate = () => {
                 <div>
                     <Container>
                         <Row>
-                            <Col style={{margin:"auto"}}><Cards src='images/Icons/tool.png' title='Free Towing running or not' text='Regardless of where you are, you can get free towing'/></Col>
+                            <Col ><Cards src='images/Icons/tool.png' title='Free Towing running or not' text='Regardless of where you are, you can get free towing'/></Col>
                             <Col><Cards src='images/Icons/money-flow.png' title='100% Tax Deductible' text='Greatest tax deduction available.'/></Col>
                             <Col style={{align: "left"}}><Cards src='images/Icons/group-users.png' title='Help Your Community' text='The assurance that your gift supports organizations supporting your communitys residents'/></Col>
                         </Row>
@@ -28,8 +28,9 @@ const WhyDonate = () => {
                 <a href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a>
                 <a href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a>
             </div>
+            </div>
             <Footer />
-        </div>
+
         </div>
     )
 }
