@@ -1,13 +1,20 @@
 import '../css/footer.css';
+import {Card, Button, Col, Container, Row} from 'react-bootstrap';
 
 const Footer = () => {
     return (
         <footer class="container-fluid text-center">
-            <p>Online Store Copyright</p>  
-            <form class="form-inline">Get deals:
-                <input type="email" class="form-control" size="50" placeholder="Email Address" />
-                <button type="button" class="btn btn-danger">Sign Up</button>
-            </form>
+            <Container>
+                <Row>
+                    <Col>            <p>Online Store Copyright</p>  </Col>
+                    <Col>
+                    <p>Credit Where Its Due:</p>
+                    <a style={{color: "black"}} href="https://www.flaticon.com/free-icons/community" title="community icons">Community icons created by KP Arts - Flaticon</a>
+                    <a style={{color: "black"}} href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a>
+                    <a style={{color: "black"}} href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a>
+                    </Col>
+                </Row>
+            </Container>
         </footer>
     );
 }
