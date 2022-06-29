@@ -7,7 +7,6 @@
   const Homecontent = () =>{
       return (
         <div >
-          inTow
           <Header />
           <div class="main body ui container">
             <img

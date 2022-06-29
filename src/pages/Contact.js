@@ -2,6 +2,9 @@ import Header from './Header';
 import Footer from './Footer';
 import Form from "react-bootstrap/Form";
 import FormText from '../components/FormText';
+import {Button} from 'react-bootstrap';
+
+import '../css/contact.css';
 
 const Contact = () => {
     return (
@@ -36,7 +39,8 @@ const Contact = () => {
                     <p><label for="w3review">Your Message: </label></p>
                     <textarea id="w3review" name="w3review" rows="4" cols="100"></textarea>
                     <br /><br />
-                    <input type="submit" value="Submit" />
+                     
+                    <Button type='submit' variant="secondary">Secondary</Button>{' '}
                     </div>
                     </Form>
                 </div>
