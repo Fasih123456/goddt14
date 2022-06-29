@@ -10,7 +10,7 @@ const WhyDonate = () => {
             <Header />
             <div class="main body ui container">
                 <p className='red-heading'>InTow Turns Your Burden In To Something Beautiful</p>
-                <p>One of the simplest ways to donate a car is to find a decent home for it. Unexpected difficulties and headaches are frequently involved when selling or scrapping an automobile. We take great pride in providing a reliable alternative. You may relax after donating a car to one of our initiatives. In exchange for your donation to one of CDF's programs, you will get: </p>
+                <p>Finding a suitable home for a car is one of the easiest ways to give one. Selling or scrapping an automobile frequently involves unforeseen challenges and inconveniences. We take great delight in offering a trustworthy substitute. After giving a car to one of our projects, you can unwind. In exchange for your donation to InTow, you will get: </p>
 
                 <div>
                     <Container>
@@ -20,17 +20,17 @@ const WhyDonate = () => {
                             <Col style={{align: "left"}}><Cards src='images/Icons/group-users.png' title='Help Your Community' text='The assurance that your gift supports organizations supporting your communitys residents'/></Col>
                         </Row>
                     </Container>
+                </div>
 
+                <div>
+                <p className='red-heading' style={{marginBottom: "10px", fontSize: "27px"}}>Give Back To Your Community</p>
+                <p >Giving with one of our programmes is a remarkably simple way to support the neighbourhood. By selecting one of our programmes, you can support the cause that means the most to you, whether it be assisting children or veterans.</p>
 
-
-                <a href="https://www.flaticon.com/free-icons/community" title="community icons">Community icons created by KP Arts - Flaticon</a>
-
-                <a href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a>
-            </div>
+                <p className='red-heading' style={{marginBottom: "10px", fontSize: "27px"}}>The Overhead Myth: Be An Informed Donor</p>
+                <p style={{paddingBottom:"20px"}}>The Overhead Solution, developed in 2013 by Guidestar, BBB Wise Giving Alliance, and Charity Navigator, is supported by the Car Donation Foundation in its effort to dispel the myth that financial ratios are the only measure of a nonprofit's performance. By showing our value based on impact, exhibiting ethical behaviour and transparent data about our performances, managing towards results, and assisting in educating funders on the true expenses of our programmes, InTpw seeks to transcend the Overhead Myth. We encourage you to read the open letter written by the information services and watch the Ted Talk by Dan Pollotta on this subject to understand more.</p>
+                </div>
             </div>
             <Footer />
-
         </div>
     )
 }

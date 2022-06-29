@@ -6,7 +6,7 @@ const Footer = () => {
         <footer class="container-fluid text-center">
             <Container>
                 <Row>
-                    <Col>            <p>Online Store Copyright</p>  </Col>
+                    <Col></Col>
                     <Col>
                     <p>Credit Where Its Due:</p>
                     <a style={{color: "black"}} href="https://www.flaticon.com/free-icons/community" title="community icons">Community icons created by KP Arts - Flaticon</a>
