@@ -17,9 +17,8 @@
               <div class="row">
                 <div class="col-sm-8">
                   <div class="panel panel-primary text-left" style={{ borderColor: "white" }}>
-                    <div
+                  <div
                       class="panel-heading"
-                      style={{ color: "black", backgroundColor: "white", borderColor: "white" }}
                     >
                       <p className='red-heading'>
                         Donate a Car Today!
@@ -49,7 +48,6 @@
                   <div class="panel panel-primary text-left" style={{ borderColor: "white" }}>
                     <div
                       class="panel-heading"
-                      style={{ color: "black", backgroundColor: "white", borderColor: "white" }}
                     >
                       <p className='red-heading'>
                         Your Dependable Choice
@@ -68,9 +66,8 @@
                   </div>
 
                   <div class="panel panel-primary text-left" style={{ borderColor: "white" }}>
-                    <div
+                  <div
                       class="panel-heading"
-                      style={{ color: "black", backgroundColor: "white", borderColor: "white" }}
                     >
                       <p className='red-heading'>
                       Donate Now and Make a Difference

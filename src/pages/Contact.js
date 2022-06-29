@@ -40,7 +40,8 @@ const Contact = () => {
                     <textarea id="w3review" name="w3review" rows="4" cols="100"></textarea>
                     <br /><br />
                      
-                    <Button type='submit' variant="secondary">Secondary</Button>{' '}
+                    <Button type='submit' variant="secondary">Submit</Button>{' '}
+                    <br />
                     </div>
                     </Form>
                 </div>

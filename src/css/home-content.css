@@ -32,3 +32,8 @@ code {
   padding: 20px;
 }
 
+.panel-primary>.panel-heading{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
