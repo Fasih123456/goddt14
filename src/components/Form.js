@@ -56,6 +56,7 @@ function HorizontalExample() {
     <div className='main body ui container'>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <div className='group'>
+        <h3 className='form-heading'>Charity</h3>
         <Form.Group  as={Row} className="mb-3" controlId="intialform">
           <Form.Label column sm={6} style={{paddingLeft: "10px"}}>
             1. Are you a registered Vechile Owner
@@ -379,8 +380,8 @@ function HorizontalExample() {
           </Col>
 
 
-          <Col sm={{ span: 10, offset: 2 }}>
-            <Button type="submit">Submit</Button>
+          <Col style={{paddingLeft: "10px", paddingTop: "10px"}} >
+          <Button  type='submit' variant="secondary">Submit</Button>{' '}
           </Col>
         </Form.Group>
         </div>

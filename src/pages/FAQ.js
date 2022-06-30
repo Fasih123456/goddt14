@@ -89,7 +89,7 @@ const FAQ = () => {
     return (
         <div>
             <Header />
-            <div className='main body ui container'>
+            <div className='main body ui container' style={{paddingBottom: "20px"}}>
             <p className='red-heading' style={{marginBottom:"7.5px", marginTop:"20px"}}>Frequently Asked Questions(FAQ)</p>
             <p style={{marginBottom: "45px"}}>Click a question to see its answer below</p>
             <Accord id='1' title='What can i donate' content={contents[0]}/>
