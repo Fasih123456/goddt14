@@ -59,7 +59,7 @@ function HorizontalExample() {
         <h3 className='form-heading'>Charity</h3>
         <Form.Group  as={Row} className="mb-3" controlId="intialform">
           <Form.Label column sm={6} style={{paddingLeft: "10px"}}>
-            1. Are you a registered Vechile Owner
+            1. Are you a registered Vehicle Owner
           </Form.Label>
           <Col sm={6} onChange={(e)=>handleshowextraquestion(e)}>
             <Form.Check
@@ -85,9 +85,7 @@ function HorizontalExample() {
 
         <Form.Group as={Row} className="mb-3" controlId="intialform">
           <Form.Label column sm={8}>
-            3. Is your vehicle mechanically drivable at this time? Would it be able to drive around the
-            block right now? - This question is only pertaining to the mechanical condition. -
-            Expired insurance or registration should not affect your answe
+            3. Is your vehicle mechanically drivable at this time? Would it be possible to drive around the block right now? -- This question only pertains to the mechanical condition. -Expired insurance or registration should not affect your answer.
           </Form.Label>
           <Col sm={4} >
             <Form.Check 
@@ -117,9 +115,7 @@ function HorizontalExample() {
           showextraquestion == 'no' && (
             <div className='group'>
             <FormText
-              title="4. You have noted that you are not the registered owner of the vehicle. Please explain the
-                circumstance of this car(Ex: Abdoned Vechile, on behalf of family member, power of
-                attoerny)"
+              title="4. You have noted that you are not the registered owner of the vehicle. Please explain the circumstances surrounding this vehicle (for example, abdoned vehicle, on behalf of a family member, power of attorney)."
               placeholder="yo"
               name='question4'
             />
@@ -131,7 +127,7 @@ function HorizontalExample() {
       <h3 className='form-heading'>Doners information</h3>
 
 
-        <FormText title="5. First Name (or Company Name)"  name='userfirstname'/>
+        <FormText title="5. First Name (or Business Name)"  name='userfirstname'/>
         <FormText title="6. Last Name"  name='userlastname'/>
         <FormText title="7. Street Address"  name='userstreetaddress'/>
         <FormText title="8. City or Town"  name='usercity'/>
@@ -158,7 +154,7 @@ function HorizontalExample() {
           <Col sm={10}>
             <Form.Check
               type="checkbox"
-              label="Runs Fine(no mechnical conerns)"
+              label="Runs Fine(No mechnical concerns)"
               value='runs fine'
               name="runsfine"
               id="formHorizontalRadios1"
@@ -186,7 +182,7 @@ function HorizontalExample() {
             />
             <Form.Check
               type="checkbox"
-              value='tramission problems'
+              value='transmission problems'
               label="Transmission problems"
               name="transmissionproblem"
               id="formHorizontalRadios2"
@@ -269,7 +265,7 @@ function HorizontalExample() {
                 <h3>This option would be good for vehicles:</h3>
                 <ul>- Of any age</ul>
                 <ul>- Of any mechanical condition</ul>
-                <ul>- This option would see your vehicle sent to an area agent that would either recycle or repurpose the vechile at their discrection</ul>
+                <ul>- With this choice, your car would be delivered to a local agency who, at their discretion, would either recycle or repurpose it.</ul>
               </div>
               )
               }
@@ -302,7 +298,7 @@ function HorizontalExample() {
         <Form.Group as={Row} className="mb-3" controlId="intialform">
         <h3 className='form-heading'> Towing Information</h3>
           <Form.Label column sm={2}>
-            21. Can you drive this vechile?
+            21. Can you drive this vehicle?
           </Form.Label>
           <Col sm={10}>
             <Form.Check
@@ -357,8 +353,8 @@ function HorizontalExample() {
         <div className="group">
         <Form.Group as={Row} className="mb-3" controlId="intialform">
         <h3 className='form-heading'>Charity</h3>
-        <FormText title='29. Do you have an charity which you would like to donate your vehicle to?'  name='location1'/>
-        <FormText title='30. Would like to add any addional information' name='location1' />
+        <FormText title='29. Do you have a charity to which you would like to donate your vehicle(please specify any or NA if not)'  name='location1'/>
+        <FormText title='30. Would you like to add any additional information?' name='location1' />
         
 
         <Form.Label column sm={2}>

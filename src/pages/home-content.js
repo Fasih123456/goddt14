@@ -26,7 +26,7 @@
                     </div>
                     <div class="panel-body">
                       <p>
-                      We make it easy for you and the organisation you care about to donate a car. We make giving old cars, removing cars, recycling cars, or just junking cars a simple procedure for you and the charity that will benefit. Every gift is an honour for us to handle, and we're dedicated to giving our best service at every turn.
+                      We make it easy for you and the organisation you care about to donate a car. Giving old cars, removing cars, recycling cars, or just junking cars is a simple procedure for you and the charity that will benefit. Every gift is an honour for us to handle, and we're dedicated to giving our best service at every turn.
                       </p>
                       <div>
                         <ul>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="panel-body">
                       <p>
-                      The charity that means the most to you benefits from your used automobile contributions. Through Donate a Car Canada, you may choose to donate your car to ANY recognised Canadian charity, and we'll see to it that they have a simple time accepting it. Since there are no costs associated with participating in our gift-receiving programme, your charity of choice may use every dollar you donate to support the important work they are doing on behalf of Canadians just like you.
+                      The charity that means the most to you benefits from your used automobile contributions. Through InTow, you may choose to donate your car to ANY recognised Canadian charity, and we'll see to it that they have a simple time accepting it. Since there are no costs associated with participating in our gift-receiving programme, your charity of choice may use every dollar you donate to support the important work they are doing on behalf of Canadians just like you.
                       </p>
                     <Button />
                     </div>
@@ -88,32 +88,32 @@
 
                 <div class="col-sm-4">
                   <div class="panel panel-success">
-                    <div id="panel-heading-row-two">Why Donate with us</div>
+                    <div id="panel-heading-row-two">Why You Will Love Us</div>
                     <div class="panel-footer">
                       <ListGroup defaultActiveKey="#link1">
                         <ListGroup.Item action href="#link1">
-                          <h2>Donating a Car to Your Charity of Choice</h2>
+                          <h2>We Offer free towing</h2>
                           <p>
-                          We make it simple to donate an automobile in Canada. Emails and clear communication are our top priorities, and we will work rapidly to resolve any concerns and inquiries.
+                          We provide free towing wherever you are in Canada.
                           </p>
                         </ListGroup.Item>
                         <ListGroup.Item action href="#link2">
-                          <h2>Great way to donate your vehicle to charity!</h2>
+                          <h2>Maximum Tax Deduction</h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam
+                          All automobiles that are recycled or sold at auction qualify for a 100% tax deduction.
                           </p>
                         </ListGroup.Item>
                         <ListGroup.Item action href="#link3">
-                          <h2>Donate an Old Vehicle</h2>
+                          <h2>Helping your Community</h2>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam{" "}
+                            Every gift you give makes it possible for Canadians to live happy lives.
                           </p>
                         </ListGroup.Item>
                       </ListGroup>
+                      <div class="navbar-header">
+
+            </div>
+                      
                     </div>
                   </div>
                 </div>
