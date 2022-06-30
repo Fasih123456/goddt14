@@ -3,9 +3,10 @@ import Footer from './Footer';
 import Form from "react-bootstrap/Form";
 import FormText from '../components/FormText';
 import {Button} from 'react-bootstrap';
-import ContactForm from '../components/ContactForm';
+
 
 import '../css/contact.css';
+import '../css/contactform.css'
 import React from 'react';
 
 const Contact = () => {
@@ -33,7 +34,7 @@ const Contact = () => {
                 <br />
 
                 <div>
-                    <Form>
+                    <Form style={{marginLeft: "0px"}}>
                         <h1>Contact Form</h1>
                     <FormText title='First Name' name='firstnameCF'/>
                     <FormText title='Last Name' name='lastnameCF' />

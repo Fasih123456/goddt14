@@ -53,7 +53,7 @@ function HorizontalExample() {
 
   return (
     <div className='main body ui container'>
-      <Form noValidate validated={validated} onSubmit={handleSubmit} style={{width: "100%"}}>
+      <Form noValidate validated={validated} onSubmit={handleSubmit} style={{width: "100%", background: "white"}}>
         <div className='group'>
         <h3 className='form-heading'>Charity</h3>
         <Form.Group  as={Row} className="mb-3" controlId="intialform">
