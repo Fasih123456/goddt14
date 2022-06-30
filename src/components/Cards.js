@@ -1,4 +1,4 @@
-import {Card, Button, Col, Container, Row} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 
 const Cards = (props) => {
     return (
