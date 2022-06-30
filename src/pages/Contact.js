@@ -5,8 +5,10 @@ import FormText from '../components/FormText';
 import {Button} from 'react-bootstrap';
 
 import '../css/contact.css';
+import React from 'react';
 
 const Contact = () => {
+
     return (
         <div>
             <Header />
@@ -37,7 +39,7 @@ const Contact = () => {
                     <FormText title='Location/City' name='locationCF' />
                     <div style={{paddingLeft: "15px"}}>
                     <p><label for="w3review">Your Message: </label></p>
-                    <textarea id="w3review" name="w3review" rows="4" cols="100"></textarea>
+                    <textarea id="w3review" name="w3review" rows="4" cols={window.innerWidth > 900 ? "100" : "50"}></textarea>
                     <br /><br />
                      
                     <Button type='submit' variant="secondary">Submit</Button>{' '}
@@ -49,6 +51,7 @@ const Contact = () => {
             <Footer />
         </div>
     )
+    
 }
 
 export default Contact;

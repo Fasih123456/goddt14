@@ -7,7 +7,6 @@ import FormText from "./FormText";
 
 import React, {useState} from 'react';
 import '../css/donatetoday.css'
-import { FormGroup } from "react-bootstrap";
 
 function HorizontalExample() {
   const [showhide, setShowhide]=useState('');
@@ -45,7 +44,7 @@ function HorizontalExample() {
     console.log(getvalue);
     console.log(sameinformation);
 
-    if(sameinformation == 'yes' && getvalue == 'yes'){
+    if(sameinformation === 'yes' && getvalue === 'yes'){
       setSameinformation('no');
     }else{
       setSameinformation(getvalue);
@@ -54,7 +53,7 @@ function HorizontalExample() {
 
   return (
     <div className='main body ui container'>
-      <Form noValidate validated={validated} onSubmit={handleSubmit}>
+      <Form noValidate validated={validated} onSubmit={handleSubmit} style={{width: "100%"}}>
         <div className='group'>
         <h3 className='form-heading'>Charity</h3>
         <Form.Group  as={Row} className="mb-3" controlId="intialform">
@@ -112,7 +111,7 @@ function HorizontalExample() {
         </div>
 
         {
-          showextraquestion == 'no' && (
+          showextraquestion === 'no' && (
             <div className='group'>
             <FormText
               title="4. You have noted that you are not the registered owner of the vehicle. Please explain the circumstances surrounding this vehicle (for example, abdoned vehicle, on behalf of a family member, power of attorney)."
@@ -319,7 +318,7 @@ function HorizontalExample() {
 
         <Form.Group as={Row} className="mb-3">
         <Form.Label column sm={2}>
-            Same as doner address
+            22. Same as doner address
           </Form.Label>
           <Col sm={10}>
             <Form.Check
@@ -333,15 +332,15 @@ function HorizontalExample() {
           </Col>
 
           {
-            sameinformation == 'no' && (
+            sameinformation === 'no' && (
               <div>
-              <FormText title='22. Street Address' name='street'/>
-              <FormText title='23. City or Town'  name='location1'/>
-              <FormText title='24. Province'  name='location1'/>
-              <FormText title='25. Postal Code'  name='location1'/>
-              <FormText title='26. Contact Name'  name='location1'/>
-              <FormText title='27. Phone Number'  name='location1'/>
-              <FormText title='28. Phone Other'  name='location1'/>
+              <FormText title='23. Street Address' name='street'/>
+              <FormText title='24. City or Town'  name='location1'/>
+              <FormText title='25. Province'  name='location1'/>
+              <FormText title='26. Postal Code'  name='location1'/>
+              <FormText title='27. Contact Name'  name='location1'/>
+              <FormText title='28. Phone Number'  name='location1'/>
+              <FormText title='29. Phone Other'  name='location1'/>
               </div>
             )
           }
@@ -353,12 +352,12 @@ function HorizontalExample() {
         <div className="group">
         <Form.Group as={Row} className="mb-3" controlId="intialform">
         <h3 className='form-heading'>Charity</h3>
-        <FormText title='29. Do you have a charity to which you would like to donate your vehicle(please specify any or NA if not)'  name='location1'/>
-        <FormText title='30. Would you like to add any additional information?' name='location1' />
+        <FormText title='30. Do you have a charity to which you would like to donate your vehicle(please specify any or NA if not)'  name='location1'/>
+        <FormText title='31. Would you like to add any additional information?' name='location1' />
         
 
-        <Form.Label column sm={2}>
-            21. Would you like to remain anonymous
+        <Form.Label column sm={2} style={{paddingLeft: "22px"}}>
+            32. Would you like to remain anonymous
           </Form.Label>
           <Col sm={10}>
             <Form.Check
