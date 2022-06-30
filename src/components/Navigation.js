@@ -10,7 +10,6 @@ class Navigation extends React.Component{
         super(props);
 
         let width = window.innerWidth;
-        console.log(width);
         this.state = {};
         
         if(width > 900){
