@@ -3,6 +3,7 @@ import Footer from './Footer';
 import Form from "react-bootstrap/Form";
 import FormText from '../components/FormText';
 import {Button} from 'react-bootstrap';
+import ContactForm from '../components/ContactForm';
 
 import '../css/contact.css';
 import React from 'react';
@@ -33,10 +34,11 @@ const Contact = () => {
 
                 <div>
                     <Form>
+                        <h1>Contact Form</h1>
                     <FormText title='First Name' name='firstnameCF'/>
                     <FormText title='Last Name' name='lastnameCF' />
                     <FormText title='Phone #' name='phonenumberCF' />
-                    <FormText title='Location/City' name='locationCF' />
+                    <FormText title='Email Address' name='locationCF' />
                     <div style={{paddingLeft: "15px"}}>
                     <p><label for="w3review">Your Message: </label></p>
                     <textarea id="w3review" name="w3review" rows="4" cols={window.innerWidth > 900 ? "100" : "50"}></textarea>
@@ -48,6 +50,8 @@ const Contact = () => {
                     </Form>
                 </div>
             </div>
+
+
             <Footer />
         </div>
     )
